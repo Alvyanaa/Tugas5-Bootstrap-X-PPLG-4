@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Nike Store</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<!--Icon-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  <!-- CSS External -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg bg-white shadow-sm fixed-top">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#">
+      <img src="./nike.png" alt="" width="70" height="70" class="me-2">
+    </a>
+
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav">
+      ☰
+    </button>
+
+    <div class="collapse navbar-collapse" id="nav">
+      <ul class="navbar-nav mx-auto">
+        <li class="nav-item"><a class="nav-link" href="#categories">Categories</a></li>
+        <li class="nav-item"><a class="nav-link" href="#new">New</a></li>
+        <li class="nav-item"><a class="nav-link" href="#top">Top</a></li>
+        <li class="nav-item"><a class="nav-link" href="#trending">Trending</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        
+      </ul>
+       <div class="search-box" id="searchBox">
+        <input type="text" id="searchInput" placeholder="Search">
+        <i class="bi bi-search" id="searchIcon"></i>
+       </div>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero d-flex align-items-center">
+  <div class="container">
+    <div class="row align-items-center">
+
+      <div class="col-md-6 text">
+        <p class="text-secondary">Men's Show</p>
+        <h1 class="title fw-bold"><strong>New Jordan 6 Rings</strong></h1>
+        <p class="desc">
+          The Jordan 6 Rings Men's Shoe celebrates a legendary career
+          with classic design linesa and detailing for streamined hoops style.
+        </p>
+         <div class="text-start"><a href="#"><button class="btn btn-read-more mt-auto">Go To Collection</button></a></div>
+      </div>
+
+      <div class="col-md-6 hero-right">
+        <h1 class="bg-text">
+          <span class="air">AIR</span><br><br>
+          <span class="jordan">JORDAN</span>
+          </h1>
+        <img src="./nn.png" class="shoe img-fluid" alt="shoe">
+      </div>
+
+    </div>
+  </div>
+</section>
+<br>
+<!--CATEGORY-->
+<section class="shop-category" id="categories">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="hero-shop">Shop by Categories</h2><br>
+           
+        </div>
+
+        <div class="category-list">
+            <div class="category-item">
+                <img src="./basketbalshoes.jpg" alt="Basketball">
+                <p>BASKETBALL</p>
+            </div>
+
+            <div class="category-item active">
+                <img src="./air jordan shoes.jpg" alt="Air Jordans">
+                <p>AIR JORDANS</p>
+            </div>
+
+            <div class="category-item">
+                <img src="./nikefootball.jpg" alt="Football">
+                <p>FOOTBALL</p>
+            </div>
+
+            <div class="category-item">
+                <img src="./nikegolfshoes.jpg" alt="Golf">
+                <p>GOLF</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="new-arrivals" id="new">
+    <div class="container">
+        <div class="section-header">
+            <div class="title-wrap">
+                <h2 class="hero-shop">New Arrivals</h2>
+                <h3 class="text-secondary">|</h3>
+                <span>Our newly launched shoes collection.</span>
+            </div>
+           
+        </div>
+
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="./airmaxbubble.png" alt="Shoe 1">
+                <h4 class="hero-create">Nike Air Max 95 Big Bubble</h4>
+                <p class="hero-create">$17.99</p>
+            </div>
+
+            <div class="product-card">
+                <img src="./nike p-6000.png" alt="Shoe 2">
+                <h4 class="hero-create">Nike P-6000</h4>
+                <p class="hero-create">$80.99</p>
+            </div>
+
+            <div class="product-card">
+                <img src="./ajawilson.png" alt="Shoe 3">
+                <h4 class="hero-create">Nike A'ja Wilson A'one</h4>
+                <p class="hero-create">$52.87</p>
+            </div>
+
+            <div class="product-card">
+                <img src="./airmaxdrift.png" alt="Shoe 4">
+                <h4 class="hero-create">Nike Air Max Plus Drift</h4>
+                <p class="hero-create">$117.56</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- TOP PICKS -->
+<section class="container py-5" id="top">
+  <h3 class="hero-shop" style="font-size: 35px;">Top Picks</h3>
+   
+
+  <div class="row g-4">
+
+    <div class="col-md-4">
+      <div class="card product">
+        <img src="./kyrie.jpg" class="card-img-top">
+        <div class="card-body">
+          <h6 class="hero-create">Nike Kyrie 5 x Friends</h6>
+          <p class="hero-create">$175.95</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card product">
+        <img src="./air max.jpg" class="card-img-top">
+        <div class="card-body">
+          <h6 class="hero-create">Nike Air Max 720</h6>
+          <p class="hero-create">$175.95</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card product">
+        <img src="./fly.jpg" class="card-img-top">
+        <div class="card-body">
+          <h6 class="hero-create">Nike Air Zoom Alphafly 3 Flyknit</h6>
+          <p class="hero-create">$195.95</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- BANNER -->
+<section class="banner d-flex align-items-center">
+  <div class="container">
+    <div class="row align-items-center">
+
+      <div class="col-md-6">
+        <p class="text-secondary hero-create">Create your design</p>
+        <h1 class="banner-title"><strong>NIKE REACT PRESTO</strong></h1>
+         <h1 class="banner-title"><strong>BY YOU</strong></h1>
+        <h6 class="text-secondary">Take advantage of brand new, propertary cuchioning technology
+          with a fresh pair of Nike React shoes.
+        </h6>
+        <br>
+         <div class="text-start"><a href="#"><button class="btn btn-read-more mt-auto">Create</button></a></div>
+      </div>
+
+      <div class="col-md-6 text-center">
+        <img src="./65f224b9e7f805704fa18b063ffddb95-removebg-preview.png" class="img-fluid banner-img">
+      </div>
+
+    </div>
+  </div>
+</section>
+ 
+
+<!-- TRENDING -->
+<section class="container py-5" id="trending">
+  <h4 class="mb-4 fw-bold hero-shop" style="font-size: 35px;">Trending Now</h4>
+
+  <div class="row g-3">
+
+    <!-- SMALL LEFT -->
+    <div class="col-md-6">
+      <div class="trend-small position-relative">
+        <img src="./fe826335f599d9f11d3558f750390ce2.jpg" class="img-fluid w-100">
+        <h1 class="section-summer">
+         Summer Must-Haves:
+         Air Max Dia
+        </h1>
+      </div>
+    </div>
+
+    <!-- SMALL RIGHT -->
+    <div class="col-md-6">
+      <div class="trend-small position-relative">
+        <img src="./d303c0cdbb56137765a48012f00a230c.jpg" class="img-fluid w-100">
+        <h1 class="section-summer">Air Jordan 11
+        </h1>
+      </div>
+    </div>
+
+    <!-- SMALL LEFT -->
+    <div class="col-md-6">
+      <div class="trend-small position-relative">
+        <img src="./giannisfreak7.jpg" class="img-fluid w-100">
+        <h1 class="section-summer">
+         Giannis Freak 7
+        </h1>
+      </div>
+    </div>
+
+     <!-- SMALL RIGHT -->
+    <div class="col-md-6">
+      <div class="trend-small position-relative">
+        <img src="./nikev5rnr.jpg" class="img-fluid w-100">
+        <h1 class="section-summer">V5 RNR
+        </h1>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!--banner2-->
+<section class="hero-banner">
+    <img src="./c2a41fd4b509490372845680e8916712.jpg" alt="Background" class="hero-bg">
+
+    <div class="hero-overlay">
+        <div class="hero-text">
+            <h2 class="hero-shop" style="font-size: 60px;">Nike Air Force 1</h2>
+             <a href="#" class="btn btn-white btn-join px-5 text-dark">More Details</a>
+    </div>
+        </div>
+        <div class="hero-overlay">
+        <h1 class="hero-title">NIKE</h1>
+
+        <img src="./133eecf66088591cac64413118ff4c4a-removebg-preview (1).png" alt="Nike Shoe" class="hero-shoe">
+
+        <h1 class="hero-title front text-dark">NIKE</h1>
+        </div>
+    </div>
+</section>
+
+<!--CONTACT-->
+<section class="contact-section py-5" id="contact">
+    <div class="container">
+        <div class="row shadow-lg contact-box">
+
+            <!-- LEFT -->
+            <div class="col-md-7 bg-white p-5 left-side">
+                <h1 class="fw-bold mb-4">Contact Us</h1>
+                <p class="text-muted mb-5">
+                    Feel free to contact us any time.
+                    We will get back to you as soon as we can!
+                </p>
+
+                <form>
+                    <div class="mb-4">
+                        <input type="text" class="form-control custom-input" placeholder="Name">
+                    </div>
+
+                    <div class="mb-4">
+                        <input type="email" class="form-control custom-input" placeholder="Email">
+                    </div>
+
+                    <div class="mb-4">
+                        <textarea class="form-control custom-input" rows="3" placeholder="Message"></textarea>
+                    </div>
+
+                    <button class="btn send-btn px-5">SEND</button>
+                </form>
+            </div>
+
+            <!-- RIGHT -->
+            <div class="col-md-5 info-side text-white p-5 position-relative">
+                <div class="brown-top"></div>
+                <h2 class="fw-bold mb-4">Info</h2>
+
+                <p class="mb-4"><i class="bi bi-envelope me-2"></i> infoshoes@nfornewnike</p>
+                <p class="mb-4"><i class="bi bi-telephone me-2"></i> +62 56 89 146</p>
+                <p class="mb-4"><i class="bi bi-building me-2"></i> Vancouver, Canada</p>
+                <p class="mb-4"><i class="bi bi-clock me-2"></i> 07:00 - 21:00</p>
+
+                <div class="brown-bottom"></div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!--FOOTER-->
+<footer id="footer">
+  <div id="footer-main">
+    <div class="container">
+      <div class="row g-5">
+        <!-- Newsletter -->
+        <div class="col-md-3">
+          <img src="nike2.png" alt="" width="150" height="150" class="me-2">
+        </div>
+        <!-- info-->
+        <div class="col-md-2">
+          <h6>Info</h6>
+          <ul>
+            <li><a href="#">Latest sneakers & trends</a></li>
+            <li><a href="#">Trending shoes</a></li>
+            <li><a href="#">New arrivals daily</a></li>
+            <li><a href="#">Find your perfect pair</a></li>
+            <li><a href="#">Step into style</a></li>
+          </ul>
+        </div>
+         <!-- shop -->
+        <div class="col-md-2">
+          <h6>Shop</h6>
+          <ul>
+            <li><a href="#">Men</a></li>
+            <li><a href="#">Woman</a></li>
+            <li><a href="#">Kids</a></li>
+            <li><a href="#">Sale</a></li>
+            <li><a href="#">Best Sellers</a></li>
+          </ul>
+        </div>
+        <!-- about -->
+        <div class="col-md-2">
+          <h6>About</h6>
+          <ul>
+            <li><a href="#">Our Story</a></li>
+            <li><a href="#">Our Brand</a></li>
+            <li><a href="#">Who We Are</a></li>
+            <li><a href="#">Style & Quality</a></li>
+            <li><a href="#">About Us</a></li>
+          </ul>
+        </div>
+        <!-- services -->
+        <div class="col-md-2">
+          <h6>Services</h6>
+          <ul>
+            <li><a href="#">Fast Delivery</a></li>
+            <li><a href="#">Easy Returns</a></li>
+            <li><a href="#">Secure Payment</a></li>
+            <li><a href="#">24/7 Support</a></li>
+          </ul>
+        </div>
+       
+      </div>
+    </div>
+  </div>
+
+  <div id="contact">
+    <div class="container d-flex justify-content-between align-items-center flex-wrap gap-2">
+      <div>
+        <a href="#" class="text-success fw-bold text-decoration-none me-1"><i class="bi bi-leaf-fill me-1"></i></a>
+        &copy; 2025. All Rights Reserved.
+      </div>
+      <div class="d-flex align-items-center">
+      
+        <div class="ms-4">
+          <a href="#" class="me-2"><i class="bi bi-heart-fill text-danger"></i></a>
+          <a href="#"><i class="bi bi-star-fill text-warning"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
